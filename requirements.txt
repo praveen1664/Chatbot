@@ -1,0 +1,8 @@
+# Used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+
+Flask>=0.11
+chatterbot==0.8.7
+SQLAlchemy>=1.1.11
+Pillow>=5.0
+pytz>=2018

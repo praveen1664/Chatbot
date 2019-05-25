@@ -1,0 +1,112 @@
+body {
+    font-family: Garamond;
+    background-color: #000;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.messagecontainer{
+	width: 100%;
+	max-width: 750px;
+	margin-left: auto; margin-right: auto;
+  background-color: #ccc;
+  padding:3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+	border: 1px solid white;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 40%;*/
+    margin-top: 10px;
+}
+
+#typing {
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 40%;*/
+    margin-top: 10px;
+	visibility: visible;
+}
+
+#userInput {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 40%;*/
+    margin-top: 10px;
+    border: 2px solid white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding:5px;
+}
+
+#textInput {
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#buttonInput {
+    padding: 3px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 20px;
+    background-color: #0000FF;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 30%;
+}
+
+.botText {
+    background-color: #F2B100;
+    color: black;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+	  -webkit-border-radius: 10px;
+    border-radius: 10px;
+	  padding: 5px;
+	  min-height: 68px;
+    margin-right: 25%;
+}
+
+.avatar{
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  max-width: 64px;
+  max-height: 96px;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
